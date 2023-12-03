@@ -11,7 +11,7 @@ import com.example.roomdatabasejetpackcompose.ContactListScreen
 fun NavGraph (navController: NavHostController){
     NavHost(
         navController = navController,
-        startDestination = Screens.ContactList.route)
+        startDestination = Screens.AddContact.route)
     {
         composable(route = Screens.AddContact.route){
             AddContactScreen(navController)
